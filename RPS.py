@@ -39,6 +39,6 @@ isPlaying = True
 while(isPlaying==True):
     playgame()
     print("Would you like to play again?")
-    if ((not "Y" or "Yes" in input("(Y)es/(N)o: ")[0]) or (not "y" or "yes" in input("(Y)es/(N)o: ")[0])):
+    if ((not "Y" in input("(Y)es/(N)o: ")[0]) or (not "y" in input("(Y)es/(N)o: ")[0])):
         isPlaying = False
         print("Now exiting. Goodbye!")
